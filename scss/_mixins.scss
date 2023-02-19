@@ -1,0 +1,16 @@
+@mixin label-1{
+     font-size:1.6rem;
+     line-height:2.4rem;
+     color:$c-label;
+}
+
+@mixin label-2{
+     @include label-1;
+     color:$c-white;
+}
+
+@mixin label-3{
+     font-size:1.3rem;
+     line-height:1.9rem;
+     color:$c-subhead;
+}

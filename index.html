@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- displays site properly based on user's device -->
+
+     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+     <title>Frontend Mentor | Tip calculator app</title>
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+          integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+     <link rel="stylesheet" href="css/style.css">
+
+     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+
+<body>
+
+
+     <img src="images/logo.svg" alt="" class="logo">
+
+     <div class="tip-calculator">
+
+          <section class="tip-option">
+
+               <div class="tip-option__bill-wrapper">
+                    <label for="bill">Bill</label>
+                    <p class="error">Can’t be zero</p>
+                    <input type="number" name="" id="bill" class="input-big" placeholder="0" >
+                    <i class="fa-solid fa-dollar-sign"></i>
+               </div>
+               <div class="tip-option__tips-wrapper">
+                    <h4>Select Tip %</h4>
+                    <div class="tip-option__tips-radio">
+                         <label>
+                              
+                              <input type="radio" name="tip" value="5" id="">
+                              <p>5%</p>
+                         </label>
+                         <label>
+                              <input type="radio" name="tip" value="10" id="">
+                              <p>10%</p>
+                         </label>
+                         <label>
+                              <input type="radio" name="tip" value="15" id="">
+                              <p>15%</p>
+                         </label>
+                         <label>
+                              <input type="radio" name="tip" value="25" id="">
+                              <p>25%</p>
+                         </label>
+                         <label>
+                              <input type="radio" name="tip" value="50" id="">
+                              <p>50%</p>
+                         </label>
+                         <label>
+                             
+                              <input type="number" name="tip"  id="" placeholder="Custom">
+                              <!-- <p></p> -->
+                         </label>
+                    </div>
+               </div>
+               <div class="tip-option__people-wrapper">
+                    <label for="nop">Number of People</label>
+                    <p class="error">Can’t be zero</p>
+                    <input type="number" name="" id="nop" class="input-big" placeholder="0">
+                    <i class="fa-solid fa-user"></i>
+               </div>
+
+          </section>
+          <section class="tip-result">
+
+               <div class="tip-result__wrapper">
+                    <div class="tip-result__amount">
+                         <span class="tip-result__heads">
+                              <h4>Tip Amount</h4>
+                              <h6>/ person</h6>
+                         </span>
+                         <p class="result-amount">
+                              
+                         </p>
+                    </div>
+                    <div class="tip-result__total">
+                         <span class="tip-result__heads">
+                              <h4>Total</h4>
+                              <h6>/ person</h6>
+                         </span>
+                         <p class="result-total">
+                              
+                         </p>
+                    </div>
+               </div>
+               <button class="btn-reset">Reset</button>
+
+          </section>
+
+
+     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <!--   
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>. -->
+     </div>
+     <script src="app.js"></script>
+</body>
+
+</html>
